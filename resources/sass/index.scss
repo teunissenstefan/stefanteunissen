@@ -1,0 +1,92 @@
+*{
+  font-family: $font-family-fira;
+}
+
+@each $colorname, $color in $colors {
+  .st-bg--#{$colorname} {
+    background-color: $color;
+  }
+  .st-fg--#{$colorname} {
+    color: $color;
+  }
+  .st-fg--#{$colorname}:link {
+    color: $color;
+  }
+  .st-fg--#{$colorname}:visited {
+    color: $color;
+  }
+  .st-fg--#{$colorname}:hover {
+    color: $color;
+  }
+  .st-fg--#{$colorname}:active {
+    color: $color;
+  }
+  .st-border--#{$colorname} {
+    border-color: $color!important;
+  }
+}
+
+.img-profile{
+  max-width: 10rem;
+  max-height: 10rem;
+  border: .5rem solid black;
+}
+
+#app{
+  background-image: $background-heavy-rain;
+}
+
+.resume-section{
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.followed{
+  font-weight:500;
+}
+
+.social-icons a{
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: $dark-orange;
+  color: #fff!important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child{
+  margin-right:0;
+}
+
+::-webkit-scrollbar{
+  width:12px;
+  background-color:#cfd9df;
+}
+::-webkit-scrollbar:horizontal{
+  height:12px;
+}
+::-webkit-scrollbar-track{
+  border:1px #787878 solid;
+  border-radius:10px;
+  -webkit-box-shadow:0 0 6px #c8c8c8 inset;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#ff6724;
+  border:1px solid #000000;
+  border-radius:16px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:#ff6724;
+  border:1px solid #333333;
+}
+::-webkit-scrollbar-thumb:active{
+  background-color:#f6993f;
+  border:1px solid #333333;
+}

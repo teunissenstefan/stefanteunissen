@@ -1,0 +1,38 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-fira: 'Fira Code', monospace;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$dark-orange: #ff6724;
+
+$colors: (
+        blue: $blue,
+        indigo: $indigo,
+        purple: $purple,
+        pink: $pink,
+        red: $red,
+        orange: $orange,
+        yellow: $yellow,
+        green: $green,
+        teal: $teal,
+        cyan: $cyan,
+        dark-orange: $dark-orange
+);
+
+// Backgrounds
+$background-warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+$background-heavy-rain: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
