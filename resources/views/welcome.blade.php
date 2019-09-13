@@ -17,7 +17,7 @@
         <div id="app">
             <nav class="navbar navbar-expand-md navbar-dark st-bg--dark-orange" style="margin-bottom: 10px!important;">
                 <a class="navbar-brand d-none d-md-block" href="#">
-                    <img src="https://stefanteunissen.nl/images/profile.png" class="img-fluid img-profile st-border--orange">
+                    <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
