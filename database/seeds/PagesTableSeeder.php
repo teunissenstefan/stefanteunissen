@@ -122,5 +122,68 @@ class PagesTableSeeder extends Seeder
           </div>
         </div>";
         $pageSkills->save();
+
+        $pageInterests = new \App\Page();
+        $pageInterests->title = "Interesses";
+        $pageInterests->identifier = \Illuminate\Support\Str::slug("Interesses");
+        $pageInterests->content = "<p class=\"lead\">Stefans hobby's zijn gamen, gitaar spelen, wandelen, muziek luisteren en natuurlijk programmeren.
+                Als het op programmeren aan komt is Stefan vooral bezig met PHP en het Laravel framework.</p>";
+        $pageInterests->save();
+
+        $pageCertificates = new \App\Page();
+        $pageCertificates->title = "Certificaten";
+        $pageCertificates->identifier = \Illuminate\Support\Str::slug("Certificaten");
+        $pageCertificates->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+                        <div class=\"resume-content mr-auto text-left\">
+                            <h3 class=\"mb-0\">MTA: Introduction to programming using JavaScript</h3>
+                            <p>Microsoft</p>
+                        </div>
+                        <div class=\"resume-date text-md-right\">
+                            <span class=\"text-primary\">Juli 2018</span>
+                        </div>
+                    </div>
+                    <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+                        <div class=\"resume-content mr-auto text-left\">
+                            <h3 class=\"mb-0\">MTA: Introduction to programming using HTML and CSS</h3>
+                            <p>Microsoft</p>
+                        </div>
+                        <div class=\"resume-date text-md-right\">
+                            <span class=\"text-primary\">Juli 2018</span>
+                        </div>
+                    </div>
+                    <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+                        <div class=\"resume-content mr-auto text-left\">
+                            <h3 class=\"mb-0\">ECDL Standaard</h3>
+                            <p>ECDL Foundation</p>
+                        </div>
+                        <div class=\"resume-date text-md-right\">
+                            <span class=\"text-primary\">Februari 2016</span>
+                        </div>
+                    </div>
+                    <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+                        <div class=\"resume-content mr-auto text-left\">
+                            <h3 class=\"mb-0\">ECDL Basis</h3>
+                            <p>ECDL Foundation</p>
+                        </div>
+                        <div class=\"resume-date text-md-right\">
+                            <span class=\"text-primary\">December 2015</span>
+                        </div>
+                    </div>
+                    <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+                        <div class=\"resume-content mr-auto text-left\">
+                            <h3 class=\"mb-0\">IT Essentials</h3>
+                            <p>Cisco</p>
+                        </div>
+                        <div class=\"resume-date text-md-right\">
+                            <span class=\"text-primary\">Juli 2015 - Juli 2018</span>
+                        </div>
+                    </div>";
+        $pageCertificates->save();
+
+        $pageDisabled = new \App\Page();
+        $pageDisabled->title = "Readonly & Disabled";
+        $pageDisabled->identifier = \Illuminate\Support\Str::slug("disabledsuperior");
+        $pageDisabled->content = "<input type=\"text\" value=\"readonly\" readonly=\"\"><input type=\"text\" value=\"disabled\" disabled=\"\"><br><p align=\"center\">readonly = je mag het lezen maar niet bewerken</p><p align=\"center\">disabled = je mag er niks mee</p><p align=\"center\">Om deze reden moet je dus ook niks kunnen selecteren uit een disabled text input.<br></p>";
+        $pageDisabled->save();
     }
 }

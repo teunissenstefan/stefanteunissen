@@ -42,12 +42,15 @@ window.onload = function(){
         wordcloud2List.push([$(this).children()[0].innerText, $(this).children()[1].innerText]);
     });
 
+    var wc2ListFG = $("#wordcloud").children("p.fg")[0].innerText;
+    var wc2ListBG = $("#wordcloud").children("p.bg")[0].innerText;
+
     var widthBefore = $(window).width();
     function InitWC(){
         WordCloud(document.getElementById('wordcloud'), {
             list: wordcloud2List,
-            color: $("#wordcloud").children("p.fg")[0].innerText,
-            backgroundColor: $("#wordcloud").children("p.bg")[0].innerText,
+            color: wc2ListFG,
+            backgroundColor: wc2ListBG,
             shape: 'circle',
             weightFactor:function (size) {
                 return size*($("#wordcloud").width()/100);
