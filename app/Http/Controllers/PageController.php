@@ -54,6 +54,7 @@ class PageController extends Controller
         $page = new Page();
         $page->fill($request->all());
         $page->save();
+        return $page;
         return Redirect::route('pages.index');
     }
 
