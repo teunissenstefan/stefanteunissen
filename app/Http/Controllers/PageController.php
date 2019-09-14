@@ -51,12 +51,10 @@ class PageController extends Controller
      */
     public function store(Request $request)
     {
-        return "hey";
-//        $page = new Page();
-//        $page->fill($request->all());
-//        $page->save();
-//        return $page;
-//        return Redirect::route('pages.index');
+        $page = new Page();
+        $page->fill($request->all());
+        $page->save();
+        return Redirect::route('pages.index');
     }
 
     /**
