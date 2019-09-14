@@ -17,7 +17,3 @@ Route::get('/', 'HomeController@welcome')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('pages', 'PageController');
-
-Route::get('/juice', function () {
-    return 'Hello World';
-})->name('juice.store');

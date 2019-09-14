@@ -14,7 +14,7 @@
                             </div>
                         @endif
 
-                        {{Form::open(array('route' => array('pages.store')))}}
+                        {{Form::open(['route' => 'pages.store'])}}
                         @method('POST')
                         @csrf
                         <div class="row">
