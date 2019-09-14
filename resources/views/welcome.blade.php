@@ -31,7 +31,7 @@
                         @endforeach
                         <li class="nav-item">
                             <a class="navbar-brand d-block d-md-none" href="#">
-                                <img src="https://stefanteunissen.nl/images/profile.png" class="img-fluid img-profile st-border--orange">
+                                <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange">
                             </a>
                         </li>
                     </ul>

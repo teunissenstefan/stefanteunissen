@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6fe027-8dae-4f2e-bad1-1d843d881378" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/create.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
           <entry key="env" value="1" />
           <entry key="js" value="5" />
           <entry key="json" value="2" />
-          <entry key="php" value="42" />
+          <entry key="php" value="43" />
           <entry key="scss" value="5" />
           <entry key="vue" value="2" />
         </counts>
@@ -37,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="13" />
+          <entry key="Blade" value="14" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="5" />
           <entry key="PHP" value="29" />
@@ -47,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="501" />
+          <entry key="js" value="504" />
           <entry key="php" value="4128" />
           <entry key="scss" value="1381" />
         </counts>
@@ -56,7 +57,7 @@
         <counts>
           <entry key="Blade" value="1944" />
           <entry key="HTML" value="9" />
-          <entry key="JavaScript" value="501" />
+          <entry key="JavaScript" value="504" />
           <entry key="PHP" value="2175" />
           <entry key="SCSS" value="1381" />
         </counts>
@@ -65,6 +66,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="350">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="36" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -130,15 +140,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -196,7 +197,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/public/js/wordcloud.js" />
         <option value="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Page.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
@@ -208,6 +208,7 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -396,7 +397,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;web.php&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes/web.php&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
+    <property name="SearchEverywhereHistoryKey" value="welcome.bl&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;web.php&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes/web.php&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -432,12 +433,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568402564452</updated>
       <workItem from="1568402569755" duration="14963000" />
-      <workItem from="1568418085484" duration="6374000" />
+      <workItem from="1568418085484" duration="6789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21337000" />
+    <option name="totallyTimeSpent" value="21752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -607,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_13_210650_create_pages_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -716,8 +710,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        <state relative-caret-position="350">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
         </state>
       </provider>
     </entry>
