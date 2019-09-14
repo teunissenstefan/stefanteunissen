@@ -13,7 +13,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
-    <body> 
+    <body>
         <div id="app">
             <nav class="navbar navbar-expand-md navbar-dark st-bg--dark-orange" style="margin-bottom: 10px!important;">
                 <a class="navbar-brand d-none d-md-block" href="#">
