@@ -25,7 +25,7 @@ class UpdatePage extends FormRequest
     {
         return [
             'title' => 'required|max:255',
-            'identifier' => 'required|unique:pages,id,:id|max:255',
+            'identifier' => 'required|max:255|unique:pages,identifier,'.$this->input('id'),
             'content' => 'required',
         ];
     }
