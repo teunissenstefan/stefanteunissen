@@ -25,7 +25,7 @@ class StorePage extends FormRequest
     {
         return [
             'title' => 'required|max:255',
-            'identifier' => 'required|unique:pages|max:255',
+            'identifier' => 'required|unique:pages,identifier|max:255',
             'content' => 'required',
         ];
     }
