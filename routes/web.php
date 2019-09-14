@@ -16,8 +16,7 @@ Auth::routes();
 Route::get('/', 'HomeController@welcome')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('pages', 'PageController')->except(['store']);
-
 Route::post('pages', function () {
     return 'Hello World';
 })->name('pages.store');
+Route::resource('pages', 'PageController')->except(['store']);
