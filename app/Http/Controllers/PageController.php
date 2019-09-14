@@ -51,7 +51,6 @@ class PageController extends Controller
      */
     public function store(StorePage $request)
     {
-        return "hey";
         $page = new Page();
         $page->fill($request->all());
         $page->save();
