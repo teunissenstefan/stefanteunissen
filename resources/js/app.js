@@ -32,6 +32,10 @@ const app = new Vue({
     el: '#app',
 });
 
+app.config.devtools = false
+app.config.debug = false
+app.config.silent = true
+
 window.onload = function(){
     // var wordcloud2List = [['Python',4],['Laravel',9],['Materialize',6],['Bootstrap', 9], ['jQuery', 5], ['Vagrant', 5], ['PHP', 12], ['C#', 10], ['CSS', 8], ['JavaScript', 8], ['C++', 6], ['MySQL', 5], ['Java', 4], ['Windows', 9], ['Linux', 7], ['MS Office', 6], ['HTML', 11], ['Adobe CC', 6]];
     var wordcloud2List = [];
