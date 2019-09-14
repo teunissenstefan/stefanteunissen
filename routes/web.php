@@ -20,4 +20,4 @@ Route::resource('pages', 'PageController');
 
 Route::post('pages', function () {
     return 'Hello World';
-});
+})->name('pages.store');
