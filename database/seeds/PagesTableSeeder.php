@@ -95,7 +95,6 @@ class PagesTableSeeder extends Seeder
         $pageSkills->title = "Vaardigheden";
         $pageSkills->identifier = \Illuminate\Support\Str::slug("Vaardigheden");
         $pageSkills->content = "<div class=\"my-auto\">
-          <h2 class=\"mb-5\">Vaardigheden</h2>
           <div id=\"wordcloud\" style=\"height:500px;\">
           <p class='fg'>#ff6724</p>
           <p class='bg'>transparent</p>
