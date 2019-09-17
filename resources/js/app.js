@@ -79,4 +79,12 @@ window.onload = function(){
     if(el){
         sortable = Sortable.create(el);
     }
+
+    $(".menu-smooth-scroll").click(function() {
+        var menuEle = $(this);
+        var scrollToEle = menuEle.attr('href');
+        $('html, body').animate({
+            scrollTop: $(scrollToEle).offset().top
+        }, 1300);
+    });
 };

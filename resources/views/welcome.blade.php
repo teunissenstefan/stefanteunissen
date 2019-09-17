@@ -26,7 +26,7 @@
                         <ul class="navbar-nav mr-auto text-center">
                             @foreach($pages as $page)
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#pagelink-{{$page->identifier}}">{{$page->title}}</a>
+                                    <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$page->identifier}}">{{$page->title}}</a>
                                 </li>
                             @endforeach
                             <li class="nav-item">
