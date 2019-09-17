@@ -16,22 +16,24 @@
     <body>
         <div id="app">
             <nav class="navbar navbar-expand-md navbar-dark st-bg--dark-orange" style="margin-bottom: 10px!important;">
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto text-center">
-                        @foreach($pages as $page)
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#pagelink-{{$page->identifier}}">{{$page->title}}</a>
+                <div class="container">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto text-center">
+                            @foreach($pages as $page)
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#pagelink-{{$page->identifier}}">{{$page->title}}</a>
+                                </li>
+                            @endforeach
+                            <li class="nav-item">
+                                <a class="navbar-brand d-block d-md-none" href="javascript:void(0);">
+                                    <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange">
+                                </a>
                             </li>
-                        @endforeach
-                        <li class="nav-item">
-                            <a class="navbar-brand d-block d-md-none" href="javascript:void(0);">
-                                <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange">
-                            </a>
-                        </li>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
