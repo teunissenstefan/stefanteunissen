@@ -14,7 +14,9 @@ class PagesTableSeeder extends Seeder
         $pageAbout = new \App\Page();
         $pageAbout->title = "Teunissen";
         $pageAbout->identifier = \Illuminate\Support\Str::slug("Teunissen");
-        $pageAbout->content = "<p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
+        $pageAbout->content = "<a class=\"d-none d-md-block\" href=\"javascript:void(0);\">
+                    <img src=\"https://stefanteunissen.nl/images/profile.png\" class=\"img-fluid img-profile st-border--orange\">
+                </a><br/><p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
                     <p class=\"followed\">(+31) 6 - 22 171 004</p>
                     <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
                     <div class=\"social-icons\">
@@ -184,5 +186,20 @@ class PagesTableSeeder extends Seeder
         $pageDisabled->identifier = \Illuminate\Support\Str::slug("disabledsuperior");
         $pageDisabled->content = "<input type=\"text\" value=\"readonly\" readonly=\"\"><input type=\"text\" value=\"disabled\" disabled=\"\"><br><p align=\"center\">readonly = je mag het lezen maar niet bewerken</p><p align=\"center\">disabled = je mag er niks mee</p><p align=\"center\">Om deze reden moet je dus ook niks kunnen selecteren uit een disabled text input.<br></p>";
         $pageDisabled->save();
+
+        $pageContact = new \App\Page();
+        $pageContact->title = "Contact";
+        $pageContact->identifier = \Illuminate\Support\Str::slug("Contact");
+        $pageContact->content = "<p class=\"followed\">(+31) 6 - 22 171 004</p>
+                    <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
+                    <div class=\"social-icons\">
+                        <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\">
+                            <i class=\"fab fa-linkedin-in\"></i>
+                        </a>
+                        <a href=\"https://github.com/teunissenstefan\" target=\"_blank\">
+                            <i class=\"fab fa-github\"></i>
+                        </a>
+                    </div>";
+        $pageContact->save();
     }
 }

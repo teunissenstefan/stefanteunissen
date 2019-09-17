@@ -16,4 +16,6 @@ Auth::routes();
 Route::get('/', 'HomeController@welcome')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/pages/order', 'PageController@changeOrder')->name('pages.order');
+Route::patch('/pages/order', 'PageController@updateOrder')->name('pages.updateOrder');
 Route::resource('pages', 'PageController');

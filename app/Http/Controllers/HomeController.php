@@ -35,7 +35,7 @@ class HomeController extends Controller
     public function welcome()
     {
         $data = [
-            'pages' => Page::all()
+            'pages' => Page::orderBy('order','asc')->get()
         ];
         return view('welcome')->with($data);
     }

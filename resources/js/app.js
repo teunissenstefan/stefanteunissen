@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+window.Sortable = require('sortablejs/Sortable');
 window.WordCloud = require('wordcloud');
 
 window.Vue = require('vue');
@@ -36,40 +37,46 @@ const app = new Vue({
 
 window.onload = function(){
     // var wordcloud2List = [['Python',4],['Laravel',9],['Materialize',6],['Bootstrap', 9], ['jQuery', 5], ['Vagrant', 5], ['PHP', 12], ['C#', 10], ['CSS', 8], ['JavaScript', 8], ['C++', 6], ['MySQL', 5], ['Java', 4], ['Windows', 9], ['Linux', 7], ['MS Office', 6], ['HTML', 11], ['Adobe CC', 6]];
-    var wordcloud2List = [];
+    if($("#wordcloud").length > 0){
+        var wordcloud2List = [];
 
+        $("#wordcloud").children("p.wordcloud2List").each(function( index ) {
+            wordcloud2List.push([$(this).children()[0].innerText, $(this).children()[1].innerText]);
+        });
 
+        var wc2ListFG = $("#wordcloud").children("p.fg")[0].innerText;
+        var wc2ListBG = $("#wordcloud").children("p.bg")[0].innerText;
 
-    $("#wordcloud").children("p.wordcloud2List").each(function( index ) {
-        wordcloud2List.push([$(this).children()[0].innerText, $(this).children()[1].innerText]);
-    });
-
-    var wc2ListFG = $("#wordcloud").children("p.fg")[0].innerText;
-    var wc2ListBG = $("#wordcloud").children("p.bg")[0].innerText;
-
-    var widthBefore = $(window).width();
-    function InitWC(){
-        WordCloud(document.getElementById('wordcloud'), {
-            list: wordcloud2List,
-            color: wc2ListFG,
-            backgroundColor: wc2ListBG,
-            shape: 'circle',
-            weightFactor:function (size) {
-                return size*($("#wordcloud").width()/100);
+        var widthBefore = $(window).width();
+        function InitWC(){
+            WordCloud(document.getElementById('wordcloud'), {
+                list: wordcloud2List,
+                color: wc2ListFG,
+                backgroundColor: wc2ListBG,
+                shape: 'circle',
+                weightFactor:function (size) {
+                    return size*($("#wordcloud").width()/100);
+                }
+            });
+        }
+        InitWC();
+        $(window).resize(function() {
+            if(this.resizeTO) clearTimeout(this.resizeTO);
+            this.resizeTO = setTimeout(function() {
+                $(this).trigger('resizeEnd');
+            }, 500);
+        });
+        $(window).bind('resizeEnd', function() {
+            if(Math.abs(widthBefore - $(window).width()) > 10){
+                InitWC();
             }
+            widthBefore = $(window).width();
         });
     }
-    InitWC();
-    $(window).resize(function() {
-        if(this.resizeTO) clearTimeout(this.resizeTO);
-        this.resizeTO = setTimeout(function() {
-            $(this).trigger('resizeEnd');
-        }, 500);
-    });
-    $(window).bind('resizeEnd', function() {
-        if(Math.abs(widthBefore - $(window).width()) > 10){
-            InitWC();
-        }
-        widthBefore = $(window).width();
-    });
+
+    var el = document.getElementById('pageOrder');
+    var sortable;
+    if(el){
+        sortable = Sortable.create(el);
+    }
 };

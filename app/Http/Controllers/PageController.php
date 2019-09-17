@@ -28,7 +28,7 @@ class PageController extends Controller
     public function index()
     {
         $data = [
-            'pages' => Page::all()
+            'pages' => Page::orderBy('order','asc')->get()
         ];
         return view('pages.index')->with($data);
     }
@@ -93,6 +93,40 @@ class PageController extends Controller
     {
         $page->fill($request->all());
         $page->save();
+        return Redirect::route('pages.index');
+    }
+
+    /**
+     * Edit the page order.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function changeOrder()
+    {
+        $pages = Page::orderBy('order','asc')->get();
+        $data = [
+            'pages' => $pages
+        ];
+        return view('pages.order')->with($data);
+    }
+
+    /**
+     * Update the page order.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function updateOrder(Request $request)
+    {
+        $i = 1;
+        foreach($request->get("pages") as $pageId){
+            $page = Page::find($pageId);
+            if($page){
+                $page->order = $i;
+                $page->save();
+            }
+            $i++;
+        }
         return Redirect::route('pages.index');
     }
 
