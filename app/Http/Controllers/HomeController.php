@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Element;
 use App\Page;
 use Illuminate\Http\Request;
 
@@ -35,7 +36,7 @@ class HomeController extends Controller
     public function welcome()
     {
         $data = [
-            'pages' => Page::orderBy('order','asc')->get()
+            'elements' => Element::orderBy('order','asc')->get()
         ];
         return view('welcome')->with($data);
     }

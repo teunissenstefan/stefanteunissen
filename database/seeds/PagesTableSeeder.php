@@ -11,9 +11,9 @@ class PagesTableSeeder extends Seeder
      */
     public function run()
     {
-        $pageAbout = new \App\Page();
-        $pageAbout->title = "Teunissen";
-        $pageAbout->content = "<a class=\"d-none d-md-block\" href=\"javascript:void(0);\">
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<a class=\"d-none d-md-block\" href=\"javascript:void(0);\">
                     <img src=\"https://stefanteunissen.nl/images/profile.png\" class=\"img-fluid img-profile st-border--orange\">
                 </a><br/><p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
                     <p class=\"followed\">(+31) 6 - 22 171 004</p>
@@ -26,11 +26,53 @@ class PagesTableSeeder extends Seeder
                             <i class=\"fab fa-github\"></i>
                         </a>
                     </div>";
-        $pageAbout->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Teunissen";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageExperience = new \App\Page();
-        $pageExperience->title = "Ervaring";
-        $pageExperience->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+
+        $class = 'App\\CardList';
+        $cardlist = new $class;
+        $cardlist->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 1";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $carditem = new \App\CardItem();
+        $carditem->card_list_id = $cardlist->id;
+        $carditem->title = "Project 2";
+        $carditem->save();
+        $element = new \App\Element();
+        $element->title = "Projecten";
+        $element->elementable()->associate($cardlist);
+        $element->save();
+
+
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">Stagiair Applicatieontwikkelaar</h3>
                             <p>Apprentice XM<br/>Arnhem</p>
@@ -57,11 +99,15 @@ class PagesTableSeeder extends Seeder
                             <span class=\"text-primary\">Februari 2016 - Juli 2016</span>
                         </div>
                     </div>";
-        $pageExperience->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Ervaring";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageEducation = new \App\Page();
-        $pageEducation->title = "Onderwijs";
-        $pageEducation->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">ROC Rijn IJssel</h3>
                             <p>Applicatieontwikkelaar<br/>MBO Niveau 4</p>
@@ -88,11 +134,15 @@ class PagesTableSeeder extends Seeder
                             <span class=\"text-primary\">2012 - 2014</span>
                         </div>
                     </div>";
-        $pageEducation->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Onderwijs";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageSkills = new \App\Page();
-        $pageSkills->title = "Vaardigheden";
-        $pageSkills->content = "<div class=\"my-auto\">
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<div class=\"my-auto\">
           <div id=\"wordcloud\" style=\"height:500px;\">
           <p class='fg'>#ff6724</p>
           <p class='bg'>transparent</p>
@@ -118,17 +168,25 @@ class PagesTableSeeder extends Seeder
           <p class='wordcloud2List'><span class='key'>SASS</span><span class='value'>5</span></p>
           </div>
         </div>";
-        $pageSkills->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Vaardigheden";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageInterests = new \App\Page();
-        $pageInterests->title = "Interesses";
-        $pageInterests->content = "<p class=\"lead\">Stefans hobby's zijn gamen, gitaar spelen, wandelen, muziek luisteren en natuurlijk programmeren.
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<p class=\"lead\">Stefans hobby's zijn gamen, gitaar spelen, wandelen, muziek luisteren en natuurlijk programmeren.
                 Als het op programmeren aan komt is Stefan vooral bezig met PHP en het Laravel framework.</p>";
-        $pageInterests->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Interesses";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageCertificates = new \App\Page();
-        $pageCertificates->title = "Certificaten";
-        $pageCertificates->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">MTA: Introduction to programming using JavaScript</h3>
                             <p>Microsoft</p>
@@ -173,16 +231,24 @@ class PagesTableSeeder extends Seeder
                             <span class=\"text-primary\">Juli 2015 - Juli 2018</span>
                         </div>
                     </div>";
-        $pageCertificates->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Certificaten";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageDisabled = new \App\Page();
-        $pageDisabled->title = "Readonly & Disabled";
-        $pageDisabled->content = "<input type=\"text\" value=\"readonly\" readonly=\"\"><input type=\"text\" value=\"disabled\" disabled=\"\"><br><p align=\"center\">readonly = je mag het lezen maar niet bewerken</p><p align=\"center\">disabled = je mag er niks mee</p><p align=\"center\">Om deze reden moet je dus ook niks kunnen selecteren uit een disabled text input.<br></p>";
-        $pageDisabled->save();
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<input type=\"text\" value=\"readonly\" readonly=\"\"><input type=\"text\" value=\"disabled\" disabled=\"\"><br><p align=\"center\">readonly = je mag het lezen maar niet bewerken</p><p align=\"center\">disabled = je mag er niks mee</p><p align=\"center\">Om deze reden moet je dus ook niks kunnen selecteren uit een disabled text input.<br></p>";
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Readonly & Disabled";
+        $element->elementable()->associate($elementable);
+        $element->save();
 
-        $pageContact = new \App\Page();
-        $pageContact->title = "Contact";
-        $pageContact->content = "<p class=\"followed\">(+31) 6 - 22 171 004</p>
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = "<p class=\"followed\">(+31) 6 - 22 171 004</p>
                     <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
                     <div class=\"social-icons\">
                         <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\">
@@ -192,6 +258,10 @@ class PagesTableSeeder extends Seeder
                             <i class=\"fab fa-github\"></i>
                         </a>
                     </div>";
-        $pageContact->save();
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = "Contact";
+        $element->elementable()->associate($elementable);
+        $element->save();
     }
 }

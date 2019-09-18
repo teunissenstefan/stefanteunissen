@@ -24,9 +24,9 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav mr-auto text-center">
-                            @foreach($pages as $page)
+                            @foreach($elements as $element)
                                 <li class="nav-item active">
-                                    <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$page->identifier}}">{{$page->title}}</a>
+                                    <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$element->identifier}}">{{$element->title}}</a>
                                 </li>
                             @endforeach
                             <li class="nav-item">
@@ -42,14 +42,11 @@
             <main role="main" class="container-fluid">
                 @php
                     $i = 0;
-                    $len = $pages->count();
+                    $len = $elements->count();
                 @endphp
-                @foreach($pages as $key => $page)
+                @foreach($elements as $key => $element)
                     @php($i++)
-                    <div class="text-center resume-section" id="pagelink-{{$page->identifier}}">
-                        <h1>Stefan-><span class="st-fg--dark-orange">{{$page->title}}</span></h1>
-                        {!! ($page->content) !!}
-                    </div>
+                    @include("includes.element")
                     @if($i !== ($len))
                         <hr class="st-border--dark-orange">
                     @endif
