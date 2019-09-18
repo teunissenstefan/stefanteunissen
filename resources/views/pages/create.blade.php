@@ -30,17 +30,6 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                {{ Form::label('identifier', 'Identifier:') }}
-                                {{ Form::text('identifier', null, array('class' => 'form-control '.($errors->has('identifier') ? ' is-invalid' : ''),'required')) }}
-                                @if ($errors->has('identifier'))
-                                    <small class="text-danger" role="alert">
-                                        <strong>{{ $errors->first('identifier') }}</strong>
-                                    </small>
-                                @endif
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
                                 {{ Form::label('content', 'Content:') }}
                                 {{ Form::textarea('content', null, array('class' => 'form-control '.($errors->has('content') ? ' is-invalid' : ''),'required')) }}
                                 @if ($errors->has('content'))

@@ -13,7 +13,6 @@ class PagesTableSeeder extends Seeder
     {
         $pageAbout = new \App\Page();
         $pageAbout->title = "Teunissen";
-        $pageAbout->identifier = \Illuminate\Support\Str::slug("Teunissen");
         $pageAbout->content = "<a class=\"d-none d-md-block\" href=\"javascript:void(0);\">
                     <img src=\"https://stefanteunissen.nl/images/profile.png\" class=\"img-fluid img-profile st-border--orange\">
                 </a><br/><p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
@@ -31,7 +30,6 @@ class PagesTableSeeder extends Seeder
 
         $pageExperience = new \App\Page();
         $pageExperience->title = "Ervaring";
-        $pageExperience->identifier = \Illuminate\Support\Str::slug("Ervaring");
         $pageExperience->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">Stagiair Applicatieontwikkelaar</h3>
@@ -63,7 +61,6 @@ class PagesTableSeeder extends Seeder
 
         $pageEducation = new \App\Page();
         $pageEducation->title = "Onderwijs";
-        $pageEducation->identifier = \Illuminate\Support\Str::slug("Onderwijs");
         $pageEducation->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">ROC Rijn IJssel</h3>
@@ -95,7 +92,6 @@ class PagesTableSeeder extends Seeder
 
         $pageSkills = new \App\Page();
         $pageSkills->title = "Vaardigheden";
-        $pageSkills->identifier = \Illuminate\Support\Str::slug("Vaardigheden");
         $pageSkills->content = "<div class=\"my-auto\">
           <div id=\"wordcloud\" style=\"height:500px;\">
           <p class='fg'>#ff6724</p>
@@ -126,14 +122,12 @@ class PagesTableSeeder extends Seeder
 
         $pageInterests = new \App\Page();
         $pageInterests->title = "Interesses";
-        $pageInterests->identifier = \Illuminate\Support\Str::slug("Interesses");
         $pageInterests->content = "<p class=\"lead\">Stefans hobby's zijn gamen, gitaar spelen, wandelen, muziek luisteren en natuurlijk programmeren.
                 Als het op programmeren aan komt is Stefan vooral bezig met PHP en het Laravel framework.</p>";
         $pageInterests->save();
 
         $pageCertificates = new \App\Page();
         $pageCertificates->title = "Certificaten";
-        $pageCertificates->identifier = \Illuminate\Support\Str::slug("Certificaten");
         $pageCertificates->content = "<div class=\"resume-item d-flex flex-column flex-md-row mb-5\">
                         <div class=\"resume-content mr-auto text-left\">
                             <h3 class=\"mb-0\">MTA: Introduction to programming using JavaScript</h3>
@@ -183,13 +177,11 @@ class PagesTableSeeder extends Seeder
 
         $pageDisabled = new \App\Page();
         $pageDisabled->title = "Readonly & Disabled";
-        $pageDisabled->identifier = \Illuminate\Support\Str::slug("disabledsuperior");
         $pageDisabled->content = "<input type=\"text\" value=\"readonly\" readonly=\"\"><input type=\"text\" value=\"disabled\" disabled=\"\"><br><p align=\"center\">readonly = je mag het lezen maar niet bewerken</p><p align=\"center\">disabled = je mag er niks mee</p><p align=\"center\">Om deze reden moet je dus ook niks kunnen selecteren uit een disabled text input.<br></p>";
         $pageDisabled->save();
 
         $pageContact = new \App\Page();
         $pageContact->title = "Contact";
-        $pageContact->identifier = \Illuminate\Support\Str::slug("Contact");
         $pageContact->content = "<p class=\"followed\">(+31) 6 - 22 171 004</p>
                     <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
                     <div class=\"social-icons\">
