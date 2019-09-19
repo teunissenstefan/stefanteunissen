@@ -30,9 +30,7 @@
                                 </li>
                             @endforeach
                             <li class="nav-item">
-                                <a class="navbar-brand d-block d-md-none" href="javascript:void(0);">
-                                    <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange">
-                                </a>
+                                <img src="{{asset('images/profile.png')}}" class="img-fluid img-profile st-border--orange d-block d-md-none ml-auto mr-auto">
                             </li>
                         </ul>
                     </div>

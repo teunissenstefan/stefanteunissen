@@ -13,16 +13,19 @@ class PagesTableSeeder extends Seeder
     {
         $class = 'App\\Page';
         $elementable = new $class;
-        $elementable->content = "<a class=\"d-none d-md-block\" href=\"javascript:void(0);\">
-                    <img src=\"https://stefanteunissen.nl/images/profile.png\" class=\"img-fluid img-profile st-border--orange\">
-                </a><br/><p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
+        $elementable->content = "
+                    <img src=\"https://stefanteunissen.nl/images/profile.png\" class=\"img-fluid img-profile st-border--orange d-none d-md-block mr-auto ml-auto\">
+                <br/><p class=\"lead\">Stefan Teunissen is 21 jaar oud en woont in Beuningen, Gelderland. Sinds 2017 volgt hij de opleiding Applicatieontwikkelaar (MBO Niveau 4) aan het Rijn IJssel te Arnhem locatie Zijpendaalseweg. Zijn passie is programmeren. Hierbij focust hij zich vooral op webapplicaties maar maakt hij ook Android en Windows apps.</p>
                     <p class=\"followed\">(+31) 6 - 22 171 004</p>
                     <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
                     <div class=\"social-icons\">
-                        <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\">
+                        <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\" title='LinkedIn'>
                             <i class=\"fab fa-linkedin-in\"></i>
                         </a>
-                        <a href=\"https://github.com/teunissenstefan\" target=\"_blank\">
+                        <a href=\"/docs/CV.pdf\" target=\"_blank\" title='CV'>
+                            <i class=\"fa fa-file-text-o\"></i>
+                        </a>
+                        <a href=\"https://github.com/teunissenstefan\" target=\"_blank\" title='GitHub'>
                             <i class=\"fab fa-github\"></i>
                         </a>
                     </div>";
@@ -251,10 +254,13 @@ class PagesTableSeeder extends Seeder
         $elementable->content = "<p class=\"followed\">(+31) 6 - 22 171 004</p>
                     <p class=\"followed\"><a href=\"mailto:stefan@teunissen.xyz\" class=\"st-fg--orange\">stefan@teunissen.xyz</a></p>
                     <div class=\"social-icons\">
-                        <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\">
+                        <a href=\"https://www.linkedin.com/in/teunissenstefan/\" target=\"_blank\" title='LinkedIn'>
                             <i class=\"fab fa-linkedin-in\"></i>
                         </a>
-                        <a href=\"https://github.com/teunissenstefan\" target=\"_blank\">
+                        <a href=\"/docs/CV.pdf\" target=\"_blank\" title='CV'>
+                            <i class=\"fa fa-file-text-o\"></i>
+                        </a>
+                        <a href=\"https://github.com/teunissenstefan\" target=\"_blank\" title='GitHub'>
                             <i class=\"fab fa-github\"></i>
                         </a>
                     </div>";
