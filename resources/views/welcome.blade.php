@@ -23,7 +23,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto text-center">
+                        <ul class="navbar-nav mr-auto text-center ml-auto mr-auto">
                             @foreach($elements as $element)
                                 <li class="nav-item active">
                                     <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$element->identifier}}">{{$element->title}}</a>

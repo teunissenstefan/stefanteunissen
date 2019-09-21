@@ -6,12 +6,23 @@
             <div class="row">
                 @foreach($element->elementable->cardItems as $cardItem)
                     <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
+                        <div class="card" style="border:1px solid rgba(0, 0, 0, .5);">
+                            <a href="{{asset($cardItem->image)}}" data-toggle="lightbox">
+                                <img class="card-img-top" src="{{asset($cardItem->image)}}" alt="Card image cap">
+                            </a>
                             <div class="card-body">
                                 <h5 class="card-title">{{$cardItem->title}}</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="{{$cardItem->url}}" target="_blank" class="btn btn-primary"><i class="fa fa-code"></i> Code</a>
-                                <a href="{{$cardItem->url}}" target="_blank" class="btn btn-primary"><i class="fa fa-eye"></i> Demo</a>
+                                <p class="card-text">{{$cardItem->description}}</p>
+                                @if($cardItem->btn_code != null) <a href="{{$cardItem->btn_code}}" target="_blank" class="btn btn-primary btn-orange"><i class="fa fa-code"></i> Code</a> @endif
+                                @if($cardItem->btn_demo != null) <a href="{{$cardItem->btn_demo}}" target="_blank" class="btn btn-primary btn-orange"><i class="fa fa-eye"></i> Demo</a> @endif
+                                @php($technologies = json_decode($cardItem->technologies))
+                                @if(count((array)$technologies) > 0)
+                                    <hr/>
+                                    <h6>Technologiën</h6>
+                                    @foreach($technologies as $technology)
+                                        <span class="badge badge-secondary">{{$technology}}</span>
+                                    @endforeach
+                                @endif
                             </div>
                         </div>
                     </div>

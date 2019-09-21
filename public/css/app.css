@@ -330,6 +330,12 @@
   margin-right: auto;
 }
 
+.btn-orange {
+  color: white !important;
+  background-color: #ff6724 !important;
+  border-color: #f6993f !important;
+}
+
 .followed {
   font-weight: 500;
 }

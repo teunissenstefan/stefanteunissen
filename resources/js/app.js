@@ -6,6 +6,7 @@
 
 require('./bootstrap');
 window.Sortable = require('sortablejs/Sortable');
+window.ekkoLightbox = require('ekko-lightbox/ekko-lightbox');
 window.WordCloud = require('wordcloud');
 
 window.Vue = require('vue');
@@ -86,5 +87,10 @@ window.onload = function(){
         $('html, body').animate({
             scrollTop: $(scrollToEle).offset().top
         }, 1300);
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
     });
 };

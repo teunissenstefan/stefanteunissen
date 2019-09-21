@@ -16,6 +16,11 @@ class CreateCardItemsTable extends Migration
         Schema::create('card_items', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
+            $table->text('description');
+            $table->string('image');
+            $table->string('btn_code')->nullable();
+            $table->string('btn_demo')->nullable();
+            $table->json('technologies')->nullable();
             $table->unsignedBigInteger('card_list_id');
             $table->timestamps();
 
