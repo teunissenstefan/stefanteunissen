@@ -55017,7 +55017,7 @@ window.onload = function () {
     });
   }
 
-  var el = document.getElementById('pageOrder');
+  var el = document.getElementById('elementOrder');
   var sortable;
 
   if (el) {
@@ -55184,8 +55184,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\Homestead\htdocs\stefanteunissen\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\Homestead\htdocs\stefanteunissen\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

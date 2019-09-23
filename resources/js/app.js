@@ -75,7 +75,7 @@ window.onload = function(){
         });
     }
 
-    var el = document.getElementById('pageOrder');
+    var el = document.getElementById('elementOrder');
     var sortable;
     if(el){
         sortable = Sortable.create(el);

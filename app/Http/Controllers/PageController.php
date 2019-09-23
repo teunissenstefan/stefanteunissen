@@ -27,10 +27,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $data = [
-            'pages' => Page::orderBy('order','asc')->get()
-        ];
-        return view('pages.index')->with($data);
+
     }
 
     /**
@@ -51,10 +48,15 @@ class PageController extends Controller
      */
     public function store(StorePage $request)
     {
-        $page = new Page();
-        $page->fill($request->all());
-        $page->save();
-        return Redirect::route('pages.index');
+        $class = 'App\\Page';
+        $elementable = new $class;
+        $elementable->content = $request->get('content');
+        $elementable->save();
+        $element = new \App\Element();
+        $element->title = $request->get('title');
+        $element->elementable()->associate($elementable);
+        $element->save();
+        return Redirect::route('elements.index');
     }
 
     /**
@@ -76,6 +78,8 @@ class PageController extends Controller
      */
     public function edit(Page $page)
     {
+        $page['identifier'] = $page->element->identifier;
+        $page['title'] = $page->element->title;
         $data = [
             'page' => $page
         ];
@@ -91,43 +95,12 @@ class PageController extends Controller
      */
     public function update(UpdatePage $request, Page $page)
     {
-        $page->fill($request->all());
+        $page->content = $request->get('content');
+        $page->element->title = $request->get('title');
+        $page->element->identifier = $request->get('identifier');
+        $page->element->save();
         $page->save();
-        return Redirect::route('pages.index');
-    }
-
-    /**
-     * Edit the page order.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function changeOrder()
-    {
-        $pages = Page::orderBy('order','asc')->get();
-        $data = [
-            'pages' => $pages
-        ];
-        return view('pages.order')->with($data);
-    }
-
-    /**
-     * Update the page order.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function updateOrder(Request $request)
-    {
-        $i = 1;
-        foreach($request->get("pages") as $pageId){
-            $page = Page::find($pageId);
-            if($page){
-                $page->order = $i;
-                $page->save();
-            }
-            $i++;
-        }
-        return Redirect::route('pages.index');
+        return Redirect::route('elements.index');
     }
 
     /**
@@ -138,7 +111,6 @@ class PageController extends Controller
      */
     public function destroy(Page $page)
     {
-        $page->delete();
-        return Redirect::route("pages.index");
+
     }
 }

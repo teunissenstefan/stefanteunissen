@@ -16,6 +16,7 @@
 
                             {{Form::model($page, array('route' => array('pages.update', 'page'=>$page)))}}
                             <input type="hidden" name="id" value="{{$page->id}}"/>
+                            <input type="hidden" name="elementId" value="{{$page->element->id}}"/>
                             @method('PATCH')
                             @csrf
                             <div class="row">

@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">
                         Change Order
-                        <a href="{{route('pages.index')}}" class="btn btn-danger float-right mr-2">Cancel</a>
+                        <a href="{{route('elements.index')}}" class="btn btn-danger float-right mr-2">Cancel</a>
                     </div>
 
                     <div class="card-body">
@@ -17,12 +17,12 @@
                             </div>
                         @endif
 
-                        {{Form::open(array('route' => array('pages.updateOrder')))}}
+                        {{Form::open(array('route' => array('elements.updateOrder')))}}
                             @method('PATCH')
                             @csrf
-                                <ol id='pageOrder'>
-                                    @foreach($pages as $page)
-                                        <li>{{$page->title}}<input type="hidden" name="pages[]" value="{{$page->id}}"/> </li>
+                                <ol id='elementOrder'>
+                                    @foreach($elements as $element)
+                                        <li>{{$element->title}}<input type="hidden" name="elements[]" value="{{$element->id}}"/> </li>
                                     @endforeach
                                 </ol>
                             <button type="submit" class="btn btn-success">Save</button>
