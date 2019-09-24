@@ -16,6 +16,7 @@ class CreateCardItemsTable extends Migration
         Schema::create('card_items', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
+            $table->integer('order');
             $table->text('description');
             $table->string('image');
             $table->string('btn_code')->nullable();

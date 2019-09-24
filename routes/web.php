@@ -20,4 +20,7 @@ Route::get('/elements/order', 'ElementController@changeOrder')->name('elements.o
 Route::patch('/elements/order', 'ElementController@updateOrder')->name('elements.updateOrder');
 Route::resource('elements', 'ElementController');
 Route::resource('pages', 'PageController');
+Route::get('/cardlists/{cardlist}/order', 'CardListController@changeOrder')->name('carditems.order');
+Route::patch('/cardlists/{cardlist}/order', 'CardListController@updateOrder')->name('carditems.updateOrder');
 Route::resource('cardlists', 'CardListController');
+Route::resource('carditems', 'CardItemController');

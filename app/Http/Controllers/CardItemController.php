@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\CardItem;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class CardItemController extends Controller
 {
@@ -78,8 +79,10 @@ class CardItemController extends Controller
      * @param  \App\CardItem  $cardItem
      * @return \Illuminate\Http\Response
      */
-    public function destroy(CardItem $cardItem)
+    public function destroy(CardItem $carditem)
     {
-        //
+        $id = $carditem->cardList->id;
+        $carditem->delete();
+        return Redirect::route("cardlists.show",['cardlist'=>$id]);
     }
 }
