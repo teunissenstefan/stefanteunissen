@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">
                         Card Items in <span class="font-weight-bold">{{$cardList->element->title}}</span>
-                        <a href="{{route('carditems.create')}}" class="btn btn-primary float-right mr-2">New Card Item</a>
+                        <a href="{{route('carditems.create',['cardlist'=>$cardList->id])}}" class="btn btn-primary float-right mr-2">New Card Item</a>
                         <a href="{{route('carditems.order',['cardlist'=>$cardList->id])}}" class="btn btn-warning float-right mr-2">Change Order</a>
                         <a href="{{route('cardlists.edit',['cardlist'=>$cardList->id])}}" class="btn btn-primary float-right mr-2">Change Title</a>
                     </div>

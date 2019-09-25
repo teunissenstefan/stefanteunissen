@@ -23,4 +23,6 @@ Route::resource('pages', 'PageController');
 Route::get('/cardlists/{cardlist}/order', 'CardListController@changeOrder')->name('carditems.order');
 Route::patch('/cardlists/{cardlist}/order', 'CardListController@updateOrder')->name('carditems.updateOrder');
 Route::resource('cardlists', 'CardListController');
-Route::resource('carditems', 'CardItemController');
+Route::get('/carditems/{cardlist}/create', 'CardItemController@create')->name('carditems.create');
+Route::post('/carditems/{cardlist}/create', 'CardItemController@store')->name('carditems.store');
+Route::resource('carditems', 'CardItemController')->except(['create','store']);

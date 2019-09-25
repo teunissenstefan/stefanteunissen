@@ -48,28 +48,7 @@ class CardListController extends Controller
         $element->title = $request->get('title');
         $element->elementable()->associate($cardlist);
         $element->save();
-
-
         return Redirect::route('cardlists.show',['cardlist'=>$cardlist->id]);
-
-
-
-//        $img = $request->file('image');
-//        $filename = $img->getFilename().'.'.$img->getClientOriginalExtension();
-//
-//        Storage::disk('public')->put($filename,  File::get($img));
-//
-//        $cardlist = new CardList();
-//        $cardlist->title = "TEST TITLE";
-//        $cardlist->save();
-//
-//        $carditem = new CardItem();
-//        $carditem->image = $filename;
-//        $carditem->save();
-
-        /**
-         * Geen zin hierin lmao Ik Doe Het Morgen Wel™
-         */
     }
 
     /**

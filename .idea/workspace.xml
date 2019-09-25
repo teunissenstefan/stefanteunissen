@@ -3,11 +3,53 @@
   <component name="ChangeListManager">
     <list default="true" id="ec6fe027-8dae-4f2e-bad1-1d843d881378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CardItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CardItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CardList.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CardList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_18_140521_create_card_items_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_09_18_140521_create_card_items_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-36x36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/android-icon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-114x114.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-120x120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-152x152.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-57x57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-60x60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-76x76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/favicon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/ms-icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/ms-icon-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/ms-icon-310x310.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icos/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icos/ms-icon-70x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/project1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/project1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cardlists/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cardlists/order.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cardlists/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cardlists/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/elements/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/elements/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/element.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/element.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +60,20 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-601727438">
@@ -74,28 +130,33 @@
         <counts>
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
           <entry key="js" value="4" />
-          <entry key="php" value="110" />
+          <entry key="php" value="136" />
+          <entry key="png" value="2" />
           <entry key="scss" value="6" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="28" />
+          <entry key="Blade" value="41" />
+          <entry key="Image" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="82" />
+          <entry key="PHP" value="95" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="6" />
         </counts>
       </usages-collector>
@@ -103,17 +164,18 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="js" value="341" />
-          <entry key="php" value="6265" />
+          <entry key="php" value="8493" />
           <entry key="scss" value="108" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="2366" />
+          <entry key="Blade" value="2984" />
           <entry key="HTML" value="12" />
           <entry key="JavaScript" value="341" />
-          <entry key="PHP" value="3887" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PHP" value="5497" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="SCSS" value="108" />
         </counts>
       </usages-collector>
@@ -122,74 +184,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardListController.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardItemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-              <folding>
-                <element signature="e#40#57#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="667">
+              <caret line="123" column="80" selection-start-line="123" selection-start-column="80" selection-end-line="123" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/cardlists/order.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/carditems/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cardlists/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-              <folding>
-                <element signature="e#2240#2260#0#HTML" expanded="true" />
-                <element signature="e#2484#2504#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElementController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cardlists/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="84" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="171">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -222,14 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/public/js/wordcloud.js" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/jquery-sortable.js" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/pages/order.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/favicon.blade.php" />
@@ -243,11 +242,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/database/seeds/ElementsTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/CardList.php" />
         <option value="$PROJECT_DIR$/resources/sass/index.scss" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/element.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ElementController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
@@ -255,7 +251,6 @@
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/elements/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/elements/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/elements/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UpdatePage.php" />
         <option value="$PROJECT_DIR$/resources/views/cardlists/create.blade.php" />
@@ -263,15 +258,28 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_09_12_134118_create_card_lists_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_18_140521_create_card_items_table.php" />
         <option value="$PROJECT_DIR$/app/CardItem.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UpdateCardList.php" />
         <option value="$PROJECT_DIR$/resources/views/cardlists/edit.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/cardlists/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" />
+        <option value="$PROJECT_DIR$/resources/views/elements/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/cardlists/order.blade.php" />
+        <option value="$PROJECT_DIR$/app/CardList.php" />
+        <option value="$PROJECT_DIR$/resources/views/cardlists/show.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" />
+        <option value="$PROJECT_DIR$/resources/views/carditems/create.blade.php" />
+        <option value="$PROJECT_DIR$/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/StoreCardItem.php" />
+        <option value="$PROJECT_DIR$/public/storage/test.txt" />
+        <option value="$PROJECT_DIR$/public/test/test.txt" />
+        <option value="$PROJECT_DIR$/storage/app/public/images/test.txt" />
+        <option value="$PROJECT_DIR$/storage/app/public/test.txt" />
+        <option value="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/element.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/UpdateCardItem.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" />
+        <option value="$PROJECT_DIR$/resources/views/carditems/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -431,6 +439,11 @@
             <path>
               <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
               <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -454,6 +467,12 @@
               <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
               <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -472,6 +491,13 @@
               <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="carditems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
@@ -513,6 +539,32 @@
               <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stefanteunissen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stefanteunissen" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -521,7 +573,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="web.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;web.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;app.js&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;element&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;page&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;authenti&#9;null&#9;null&#10;logincon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/Auth/LoginController.php&#10;edit.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;edit.bla&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;pages&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;index.scss&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;element.blade&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;cardlist&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardList.php&#10;homecon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/HomeController.php&#10;index.sc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;welcome&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;page.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Page.php&#10;variable.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/_variables.scss&#10;pageseed&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;sortablejs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/node_modules/sortablejs&#10;index.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;app.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss&#10;webpack&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/webpack.mix.js&#10;pagecontr&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/PageController.php&#10;pages/&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages&#10;welcome.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;routes/&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes&#10;welcome.bl&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
+    <property name="SearchEverywhereHistoryKey" value="elem&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;element.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;welcome&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;welc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;element.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;carditem.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardItem.php&#10;element&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;pages&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;storec&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;store&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;element.blade&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;config&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/config&#10;web.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;web.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;app.js&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;page&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;authenti&#9;null&#9;null&#10;logincon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/Auth/LoginController.php&#10;edit.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;edit.bla&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;index.scss&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;cardlist&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardList.php&#10;homecon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/HomeController.php&#10;index.sc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;page.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Page.php&#10;variable.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/_variables.scss&#10;pageseed&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;sortablejs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/node_modules/sortablejs&#10;index.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;app.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss&#10;webpack&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/webpack.mix.js&#10;pagecontr&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/PageController.php&#10;pages/&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages&#10;welcome.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;routes/&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes&#10;welcome.bl&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -531,6 +583,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/resources/views/pages" />
       <recent name="E:\Homestead\htdocs\stefanteunissen\resources\js" />
     </key>
@@ -567,11 +620,12 @@
       <workItem from="1569238530324" duration="5383000" />
       <workItem from="1569308906412" duration="7475000" />
       <workItem from="1569327962026" duration="3552000" />
+      <workItem from="1569409191863" duration="10025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70530000" />
+    <option name="totallyTimeSpent" value="80555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +640,7 @@
     <frame x="9" y="-8" width="1902" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21197411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21413161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -637,77 +691,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/jquery-sortable.js" />
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/favicon.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -734,13 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -783,48 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/PagesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="89" column="25" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="89" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StorePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreCardList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/elements/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="37" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/element.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -873,30 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/CardItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="49" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardItemController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/UpdatePage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -932,10 +842,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="84" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="84" />
+        <state relative-caret-position="256">
+          <caret line="16" column="106" lean-forward="true" selection-start-line="16" selection-start-column="106" selection-end-line="17" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -948,53 +865,187 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ElementController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        <state relative-caret-position="229">
+          <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="106" lean-forward="true" selection-start-line="16" selection-start-column="106" selection-end-line="17" selection-end-column="82" />
+        <state relative-caret-position="464">
+          <caret line="29" column="49" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/elements/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreCardList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StorePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding>
-            <element signature="e#2240#2260#0#HTML" expanded="true" />
-            <element signature="e#2484#2504#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardListController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/order.blade.php">
+    <entry file="file://$PROJECT_DIR$/storage/app/public/phprETVrd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/images/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/1569417429.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PagesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/carditems/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="89" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CardItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cardlists/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+          <caret line="19" column="46" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreCardItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UpdateCardItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/element.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="123" column="80" selection-start-line="123" selection-start-column="80" selection-end-line="123" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/carditems/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
         </state>
       </provider>
     </entry>

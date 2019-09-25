@@ -17,12 +17,12 @@
                             </div>
                         @endif
 
-                        {{Form::open(array('route' => array('carditems.updateOrder',['cardlist'=>$cardList])))}}
+                        {{Form::open(array('url' => route('carditems.updateOrder',['cardlist'=>$cardList])))}}
                         @method('PATCH')
                         @csrf
                         <input type="hidden" name="cardlistid" value="{{$cardList->id}}"/>
                         <ol id='elementOrder'>
-                            @foreach($cardItems as $cardItem)
+                            @foreach($cardList->cardItems as $cardItem)
                                 <li>{{$cardItem->title}}<input type="hidden" name="carditems[]" value="{{$cardItem->id}}"/> </li>
                             @endforeach
                         </ol>

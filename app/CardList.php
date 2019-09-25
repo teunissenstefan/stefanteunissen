@@ -12,6 +12,6 @@ class CardList extends Model
     }
 
     public function cardItems(){
-        return $this->hasMany('App\CardItem','card_list_id','id')->orderBy('created_at','desc');
+        return $this->hasMany('App\CardItem','card_list_id','id')->orderBy('order','asc');
     }
 }

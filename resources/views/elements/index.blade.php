@@ -34,7 +34,7 @@
                                             <td scope="row">{{$element->title}}</td>
                                                 @switch($element->elementable_type)
                                                     @case("App\\CardList")
-                                                        <td style="width:100px;"><a class="btn btn-small btn-info float-right" href="{{route('cardlists.edit',['cardlist'=>$element->elementable->id])}}">Edit</a></td>
+                                                        <td style="width:100px;"><a class="btn btn-small btn-info float-right" href="{{route('cardlists.show',['cardlist'=>$element->elementable->id])}}">Edit</a></td>
                                                     @break
 
                                                     @case("App\\Page")
