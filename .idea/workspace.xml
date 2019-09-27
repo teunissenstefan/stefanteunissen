@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec6fe027-8dae-4f2e-bad1-1d843d881378" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,22 +82,23 @@
     <session id="-1523976155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="js" value="4" />
-          <entry key="php" value="140" />
+          <entry key="php" value="141" />
           <entry key="png" value="2" />
           <entry key="scss" value="6" />
           <entry key="txt" value="5" />
@@ -108,8 +110,8 @@
           <entry key="Blade" value="41" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="99" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PHP" value="100" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="6" />
         </counts>
       </usages-collector>
@@ -136,11 +138,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardItemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="512">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/PagesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -148,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/carditems/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            <state relative-caret-position="560">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -227,12 +247,12 @@
         <option value="$PROJECT_DIR$/public/test/test.txt" />
         <option value="$PROJECT_DIR$/storage/app/public/images/test.txt" />
         <option value="$PROJECT_DIR$/storage/app/public/test.txt" />
-        <option value="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/element.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UpdateCardItem.php" />
         <option value="$PROJECT_DIR$/resources/views/carditems/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CardListController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CardItemController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PagesTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -344,10 +364,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-64" />
-    <option name="y" value="136" />
-    <option name="width" value="3620" />
-    <option name="height" value="1107" />
+    <option name="x" value="9" />
+    <option name="y" value="-8" />
+    <option name="width" value="949" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -526,7 +546,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="elem&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;element.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;welcome&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;welc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;element.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;carditem.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardItem.php&#10;element&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;pages&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;storec&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;store&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;element.blade&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;config&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/config&#10;web.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;web.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;app.js&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;page&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;authenti&#9;null&#9;null&#10;logincon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/Auth/LoginController.php&#10;edit.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;edit.bla&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;index.scss&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;cardlist&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardList.php&#10;homecon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/HomeController.php&#10;index.sc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;page.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Page.php&#10;variable.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/_variables.scss&#10;pageseed&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;sortablejs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/node_modules/sortablejs&#10;index.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;app.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss&#10;webpack&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/webpack.mix.js&#10;pagecontr&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/PageController.php&#10;pages/&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages&#10;welcome.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;routes/&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes&#10;welcome.bl&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
+    <property name="SearchEverywhereHistoryKey" value="pages&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;elem&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;element.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;welcome&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;welc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;element.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;carditem.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardItem.php&#10;element&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;storec&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;store&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Requests/StoreCardItem.php&#10;element.blade&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/includes/element.blade.php&#10;config&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/config&#10;web.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;web.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/routes/web.php&#10;app.js&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;page&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;authenti&#9;null&#9;null&#10;logincon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/Auth/LoginController.php&#10;edit.bl&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;edit.bla&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages/edit.blade.php&#10;index.scss&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;cardlist&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/CardList.php&#10;homecon&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/HomeController.php&#10;index.sc&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;page.php&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Page.php&#10;variable.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/_variables.scss&#10;pageseed&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/database/seeds/PagesTableSeeder.php&#10;sortablejs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/node_modules/sortablejs&#10;index.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/index.scss&#10;app.scs&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss&#10;webpack&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/webpack.mix.js&#10;pagecontr&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/app/Http/Controllers/PageController.php&#10;pages/&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/pages&#10;welcome.&#9;FILE&#9;file:///home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;routes/&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/routes&#10;welcome.bl&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/views/welcome.blade.php&#10;app.j&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/resources/js/app.js&#10;composer.js&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/composer.json&#10;.env&#9;FILE&#9;file://E:/Homestead/htdocs/stefanteunissen/.env" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -573,12 +593,13 @@
       <workItem from="1569238530324" duration="5383000" />
       <workItem from="1569308906412" duration="7475000" />
       <workItem from="1569327962026" duration="3552000" />
-      <workItem from="1569409191863" duration="10403000" />
+      <workItem from="1569409191863" duration="11004000" />
+      <workItem from="1569568041832" duration="1004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80933000" />
+    <option name="totallyTimeSpent" value="82538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,7 +614,7 @@
     <frame x="9" y="-8" width="1902" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21413161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2162891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -644,7 +665,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/ElementsTableSeeder.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_13_210650_create_pages_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -844,50 +864,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/phprETVrd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/images/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/1569417429.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/PagesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/phprETVrd.png" />
+    <entry file="file://$PROJECT_DIR$/public/test/test.txt" />
+    <entry file="file://$PROJECT_DIR$/public/storage/test.txt" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/images/test.txt" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/test.txt" />
+    <entry file="file://$PROJECT_DIR$/public/images/1569417429.png" />
     <entry file="file://$PROJECT_DIR$/resources/views/carditems/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -972,16 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1616">
           <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/carditems/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -989,16 +961,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardItemController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="512">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/carditems/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PagesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

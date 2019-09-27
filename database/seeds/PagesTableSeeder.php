@@ -45,7 +45,7 @@ class PagesTableSeeder extends Seeder
         $carditem->description = "Dit is mijn persoonlijke website.";
         $carditem->btn_demo = "https://stefanteunissen.dev";
         $carditem->btn_code = "https://github.com/teunissenstefan/stefanteunissen";
-        $moveImage = \Illuminate\Support\Facades\File::copy(public_path().'/images/project1.png',storage_path().'/app/public/images/project1.png');
+//        $moveImage = \Illuminate\Support\Facades\File::copy(public_path().'/images/project1.png',storage_path().'/app/public/images/project1.png');
         $carditem->image = "project1.png";
         $carditem->technologies = json_encode(['Laravel','SASS','Bootstrap','JavaScript']);
         $carditem->save();
