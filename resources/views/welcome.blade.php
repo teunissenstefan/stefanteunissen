@@ -26,7 +26,7 @@
                         <ul class="navbar-nav mr-auto text-center ml-auto mr-auto">
                             @foreach($elements as $element)
                                 <li class="nav-item active">
-                                    <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$element->identifier}}">{{$element->title}}</a>
+                                    <a class="nav-link menu-smooth-scroll" href="#pagelink-{{$element->identifier}}">&#x200B;{{$element->title}}</a>
                                 </li>
                             @endforeach
                             <li class="nav-item">
