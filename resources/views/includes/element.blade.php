@@ -1,5 +1,5 @@
 <div class="text-center resume-section" id="pagelink-{{$element->identifier}}">
-    <h1>Stefan-><span class="st-fg--dark-orange">{{$element->title}}</span></h1>
+    <h1>Stefan->&#x200B;<span class="st-fg--dark-orange">{{$element->title}}</span></h1>
 
     @switch($element->elementable_type)
         @case("App\\CardList")
