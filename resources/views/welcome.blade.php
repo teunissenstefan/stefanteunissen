@@ -50,6 +50,8 @@
                     @endif
                 @endforeach
             </main>
+
+            <a class="back-to-top-btn" id="back-to-top-btn" href="javascript:void(0);"><i class="fa fa-arrow-up"></i></a>
         </div>
 
 

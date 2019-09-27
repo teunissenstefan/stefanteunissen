@@ -71,6 +71,22 @@
   margin-right:0;
 }
 
+.back-to-top-btn{
+  position:fixed;
+  right:25px;
+  bottom:25px;
+  display: inline-block;
+  background-color: $dark-orange;
+  color: #fff!important;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  display: none;
+}
+
 ::-webkit-scrollbar{
   width:12px;
   background-color:#cfd9df;

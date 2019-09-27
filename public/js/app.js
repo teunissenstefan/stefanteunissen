@@ -55031,11 +55031,31 @@ window.onload = function () {
       scrollTop: $(scrollToEle).offset().top
     }, 1300);
   });
+  $("#back-to-top-btn").click(function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1300);
+  });
   $(document).on('click', '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
   });
 };
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  backToTopBtn = document.getElementById("back-to-top-btn");
+  cutOffTop = 700;
+
+  if (document.body.scrollTop > cutOffTop || document.documentElement.scrollTop > cutOffTop) {
+    backToTopBtn.style.display = "block";
+  } else {
+    backToTopBtn.style.display = "none";
+  }
+}
 
 /***/ }),
 
@@ -55184,8 +55204,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/teunissenstefan/Homestead/htdocs/stefanteunissen/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\Homestead\htdocs\stefanteunissen\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\Homestead\htdocs\stefanteunissen\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
