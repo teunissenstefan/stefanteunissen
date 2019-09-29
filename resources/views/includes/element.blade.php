@@ -12,7 +12,7 @@
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">{{$cardItem->title}}</h5>
-                                <p class="card-text">{{$cardItem->description}}</p>
+                                <p class="card-text">{!! $cardItem->description !!}</p>
                                 @if($cardItem->btn_code != null) <a href="{{$cardItem->btn_code}}" target="_blank" class="btn btn-primary btn-orange"><i class="fa fa-code"></i> Code</a> @endif
                                 @if($cardItem->btn_demo != null) <a href="{{$cardItem->btn_demo}}" target="_blank" class="btn btn-primary btn-orange"><i class="fa fa-eye"></i> Demo</a> @endif
                                 @php($technologies = json_decode($cardItem->technologies))
