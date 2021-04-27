@@ -9,7 +9,7 @@
                         <div class="col-12 col-md-4 mb-3 ml-auto mr-auto">
                             <div class="card" style="border:1px solid rgba(0, 0, 0, .5);">
                                 <a href="{{asset("storage/images/".$cardItem->image)}}" data-toggle="lightbox">
-                                    <img class="card-img-top" src="{{asset("storage/images/".$cardItem->image)}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset("storage/images/".$cardItem->image)}}" style="border-bottom:1px solid grey;" alt="Card image cap">
                                 </a>
                                 <div class="card-body">
                                     <h5 class="card-title">{{$cardItem->title}}</h5>
