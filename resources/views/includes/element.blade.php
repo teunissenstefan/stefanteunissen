@@ -3,7 +3,7 @@
 
     @switch($element->elementable_type)
         @case("App\\CardList")
-            <div class="row">
+            <div class="row" data-masonry='{"percentPosition": true }'>
                 @foreach($element->elementable->cardItems as $cardItem)
                     <div class="col-12 col-md-4 mb-3 ml-auto mr-auto">
                         <div class="card" style="border:1px solid rgba(0, 0, 0, .5);">

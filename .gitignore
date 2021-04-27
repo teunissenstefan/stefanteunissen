@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public_html
+/public/docs
 /storage/*.key
 /vendor
 .env
@@ -13,7 +14,9 @@
 /private_html
 /public_ftp
 /stats
+/storage
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.idea
