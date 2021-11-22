@@ -36,7 +36,7 @@
                                         <td style="width:100px;"><form method="POST" action="{{route('carditems.destroy',['carditem'=>$cardItem->id])}}" accept-charset="UTF-8" class=" float-right">
                                                 @csrf
                                                 @method("DELETE")
-                                                <input class="btn btn-small btn-danger" type="submit" value="Delete">
+                                                <input class="btn btn-small btn-danger" onclick="return confirm('Are you sure?')" type="submit" value="Delete">
                                             </form></td>
                                     </tr>
                                 @endforeach
