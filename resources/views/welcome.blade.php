@@ -42,7 +42,7 @@
                     <a href="javascript:void(0)" class="close" role="button" onclick="halfmoon.toggleModal('image-modal')" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
-                    <img src="/" id="image-modal-img" class="img-fluid" alt="modal-img">
+                    <img src="/" id="image-modal-img" class="img-fluid ml-auto mr-auto" alt="modal-img">
                 </div>
             </div>
         </div>
