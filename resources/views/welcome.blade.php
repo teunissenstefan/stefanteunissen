@@ -36,6 +36,17 @@
     </head>
     <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true"
           data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+        <div class="modal modal-full" id="image-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-media" style="background-color: transparent"> <!-- w-500 = width: 50rem (500px) -->
+                    <a href="javascript:void(0)" class="close" role="button" onclick="halfmoon.toggleModal('image-modal')" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </a>
+                    <img src="/" id="image-modal-img" class="img-fluid" alt="modal-img">
+                </div>
+            </div>
+        </div>
+
         <div class="page-wrapper with-navbar with-sidebar" data-sidebar-type="overlayed-all">
             <nav class="navbar">
                 <div class="navbar-content d-flex d-lg-none">

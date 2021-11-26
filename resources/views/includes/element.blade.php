@@ -8,7 +8,7 @@
                     @if($cardItem->hidden==0)
                         <div class="col-sm-12 col-md-6 col-lg-4 mb-3 ml-auto mr-auto"> <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
                             <div class="card p-0"> <!-- p-0 = padding: 0 -->
-                                <img src="{{asset("storage/images/".$cardItem->image)}}" style="border-bottom:1px solid grey;" class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
+                                <img src="{{asset("storage/images/".$cardItem->thumb)}}" onclick="document.getElementById('image-modal-img').src='{{asset("storage/images/".$cardItem->image)}}';halfmoon.toggleModal('image-modal')" style="cursor: pointer;border-bottom:1px solid grey;" class="img-fluid rounded-top" alt="..."> <!-- rounded-top = rounded corners on the top -->
                                 <!-- Nested content container inside card -->
                                 <div class="content">
                                     <h2 class="content-title">

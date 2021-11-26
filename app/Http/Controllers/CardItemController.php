@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Intervention\Image\Facades\Image;
 
 class CardItemController extends Controller
 {
@@ -55,14 +57,24 @@ class CardItemController extends Controller
     public function store(StoreCardItem $request, CardList $cardlist)
     {
         $img = $request->file('image');
-        $filename = $img->getFilename().'.'.$img->getClientOriginalExtension();
-        Storage::disk('images')->put($filename,  File::get($img));
+        $imageName = "f" . Str::random(25) . ".webp";
+        $thumbName = "t" . Str::random(25) . ".webp";
+        $imageImage = Image::make($img)
+            ->encode('webp');
+        $thumbImage = Image::make($img)
+            ->resize(400, null, function ($constraint) {
+                $constraint->aspectRatio();
+            })
+            ->encode('webp', 80);
+        Storage::disk('images')->put($imageName,  $imageImage);
+        Storage::disk('images')->put($thumbName,  $thumbImage);
 
         $cardItem = new CardItem();
         $cardItem->card_list_id = $cardlist->id;
         $cardItem->title = $request->get('title');
         $cardItem->description = $request->get('description');
-        $cardItem->image = $filename;
+        $cardItem->image = $imageName;
+        $cardItem->thumb = $thumbName;
         $cardItem->btn_code = $request->get('btn_code');
         $cardItem->btn_demo = $request->get('btn_demo');
         $cardItem->technologies = json_encode(array_map('trim',explode(',',$request->get('technologies'))));
@@ -120,9 +132,19 @@ class CardItemController extends Controller
 
         if($request->file('image')){
             $img = $request->file('image');
-            $filename = $img->getFilename().'.'.$img->getClientOriginalExtension();
-            Storage::disk('images')->put($filename,  File::get($img));
-            $cardItem->image = $filename;
+            $imageName = "f" . Str::random(25) . ".webp";
+            $thumbName = "t" . Str::random(25) . ".webp";
+            $imageImage = Image::make($img)
+                ->encode('webp');
+            $thumbImage = Image::make($img)
+                ->resize(400, null, function ($constraint) {
+                    $constraint->aspectRatio();
+                })
+                ->encode('webp', 80);
+            Storage::disk('images')->put($imageName,  $imageImage);
+            Storage::disk('images')->put($thumbName,  $thumbImage);
+            $cardItem->image = $imageName;
+            $cardItem->thumb = $thumbName;
         }
 
         $cardItem->title = $request->get('title');
